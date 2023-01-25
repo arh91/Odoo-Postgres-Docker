@@ -4,9 +4,9 @@ Creo un directorio al que he llamado “OdooSetup”, y dentro de dicho director
 “docker-compose.yml”.
 
 En este dockerfile, creo dos contenedores. 
-Uno para odoo, al que he llamado “odoo”, 
-y otro para la base de datos con postgreSQL, al que he llamado “db”.
-El puerto que he designado para Odoo es el 8069.
+Uno para odoo, al que he llamado “my_odoo”, 
+y otro para la base de datos con postgreSQL, al que he llamado “my_postgres”.
+El puerto que he designado para "my_odoo" es el 8069, mientras que para "my_postgres" utilizaré el 5432.
 
 
 
