@@ -1,13 +1,11 @@
-version: '3.3'
+version: '3.1'
 
 services:
 
   odoo:
     image: odoo:15.0
-    container_name: odoo
+    container_name: my_odoo
     restart: unless-stopped
-    links:
-      - db:db
     depends_on:
       - db
     ports:
@@ -19,13 +17,15 @@ services:
 
   db:
     image: postgres:14.0
-    container_name: db
+    container_name: my_postgres
     restart: unless-stopped
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_PASSWORD=odoo
       - POSTGRES_USER=odoo
       - PGDATA=/var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
     volumes:
       - db-data:/var/lib/postgresql/data
 
