@@ -25,7 +25,7 @@ Una vez creados y arrancados ambos contenedores, el siguiente paso es comprobar 
 Para ello, en el menú superior hago click en View ---> Tool Windows ---> Database. 
 Se nos abre un cuadro a la derecha para añadir conexiones, ahora hago click en + para añadir nueva conexión. 
 Nos aparece una lista de servidores de bases de datos, en este caso hago click en postgreSQL. 
-Ahora se abre un cuadro con varios campos que hay que completar para poder establecer la conexión, como el usuario y contraseña que he elegido para conectarme a postgreSQL, el puerto que va a utilizar el contenedor o el nombre de la conexión. Una vez que haya rellenado todos los campos, hago click en "Test connection". 
+Ahora se abre un cuadro con varios campos que hay que completar para poder establecer la conexión, como el usuario y contraseña que he elegido para conectarme a postgreSQL, el puerto que va a utilizar el contenedor o el nombre de la conexión. También será necesario descargar el driver específico para poder conectar con el servidor de BBDD que vayamos a utilizar, en mi caso tengo que descargar el driver para postgreSQL. Una vez que haya rellenado todos los campos y descargado el driver correspondiente, hago click en "Test connection". 
 Si todos los datos están correctos, la conexión se realizará con éxito.
 
 ![Captura de pantalla (72)](https://user-images.githubusercontent.com/32130215/214534703-7e4622f2-e53b-4b23-89de-208529b408e3.png)
