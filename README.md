@@ -7,6 +7,12 @@ En este dockerfile, creo dos contenedores.
 Uno para odoo, al que he llamado “odoo”, 
 y otro para la base de datos con postgreSQL, al que he llamado “db”.
 El puerto que he designado para Odoo es el 8069.
+
+
+
+![Captura de pantalla (70)](https://user-images.githubusercontent.com/32130215/214528914-c5432f03-b79a-4fc1-9193-700e000447af.png)
+
+
 Luego, abro el terminal, y ya estando situado dentro del directorio OdooSetup, introduzco el 
 siguiente comando:
 docker-compose up
